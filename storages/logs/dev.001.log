@@ -10,3 +10,11 @@
 {"level":"INFO","time":"2025-01-17T14:00:01.339+0700","caller":"initialize/run.go:14","msg":"Config Log ok!","ok":"success"}
 {"level":"INFO","time":"2025-01-17T14:00:01.381+0700","caller":"initialize/mysql.go:31","msg":"mysql connected successfully"}
 {"level":"INFO","time":"2025-01-17T14:00:01.549+0700","caller":"initialize/redis.go:49","msg":"Score","score":"100"}
+{"level":"INFO","time":"2025-01-20T10:22:42.027+0700","caller":"initialize/run.go:14","msg":"Config Log ok!","ok":"success"}
+{"level":"PANIC","time":"2025-01-20T10:22:42.030+0700","caller":"initialize/mysql.go:16","msg":"InitMysql Initializtion error","error":"dial tcp 127.0.0.1:3307: connectex: No connection could be made because the target machine actively refused it.","stacktrace":"go-ecomerce-backend-api/m/internal/initialize.checkErrorPanic\n\tC:/Workspace/go-ecomerce-backend-api/internal/initialize/mysql.go:16\ngo-ecomerce-backend-api/m/internal/initialize.InitMysql\n\tC:/Workspace/go-ecomerce-backend-api/internal/initialize/mysql.go:29\ngo-ecomerce-backend-api/m/internal/initialize.Run\n\tC:/Workspace/go-ecomerce-backend-api/internal/initialize/run.go:15\nmain.main\n\tC:/Workspace/go-ecomerce-backend-api/cmd/server/main.go:13\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:272"}
+{"level":"INFO","time":"2025-01-20T10:28:47.217+0700","caller":"initialize/run.go:14","msg":"Config Log ok!","ok":"success"}
+{"level":"INFO","time":"2025-01-20T10:28:47.247+0700","caller":"initialize/mysql.go:31","msg":"mysql connected successfully"}
+{"level":"INFO","time":"2025-01-20T10:28:47.385+0700","caller":"initialize/redis.go:49","msg":"Score","score":"100"}
+{"level":"INFO","time":"2025-01-20T10:29:18.839+0700","caller":"initialize/run.go:14","msg":"Config Log ok!","ok":"success"}
+{"level":"INFO","time":"2025-01-20T10:29:18.848+0700","caller":"initialize/mysql.go:31","msg":"mysql connected successfully"}
+{"level":"INFO","time":"2025-01-20T10:29:18.926+0700","caller":"initialize/redis.go:49","msg":"Score","score":"100"}
